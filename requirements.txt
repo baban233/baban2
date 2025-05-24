@@ -1,0 +1,8 @@
+Flask
+opencv-python-headless
+mss
+numpy
+gunicorn
+flask
+flask-socketio
+eventlet
