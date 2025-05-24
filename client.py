@@ -6,7 +6,7 @@ import cv2
 import websockets
 
 # Ersetze hier mit deiner Render-URL, z.B. wss://deinprojekt.onrender.com/socket.io/?EIO=4&transport=websocket
-WS_URI = "wss://baban2.onrender.com/socket.io/?EIO=4&transport=websocket"
+WS_URI = "wss://baban2-1.onrender.com/socket.io/?EIO=4&transport=websocket"
 
 async def send_screen():
     async with websockets.connect(WS_URI) as websocket:
